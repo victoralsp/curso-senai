@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+}
+
+p {
+    color: lightgray;
+}
+
+h2 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.p-texto {
+    color: blue;
+}
+
+#titulo-3 {
+    color: orange;
+    font-size: 25px;
+    text-transform: uppercase;
+}
