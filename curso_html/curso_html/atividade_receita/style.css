@@ -1,11 +1,35 @@
+* {
+    padding: 0px;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #73513490;
     color: #F2F2F2;
 }
 
+header {
+    padding: 60px;
+    text-align: center;
+}
+
+header > a {
+    font-size: 2.5em;
+    color: #735134eb;
+    background-color: #f2f2f284;
+    text-decoration: none;
+    border: 1.5px solid #735134;
+    border-radius: 35px;
+    padding: 20px;
+}
+
+a:hover {
+    color: #f2f2f2d4;
+    background-color: #f2f2f242;
+    border-color: #735134;
+}
+
 main {
-    padding-top: 80px;
     display: flex;
     flex-direction: row;
 }
