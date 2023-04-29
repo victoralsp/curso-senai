@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    border: solid 2px;
+    padding: 8px;
+}
+
+h2 {
+    border: solid 1px;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+h3 {
+    border-bottom: dotted 2px;
+    padding: 6px;
+}
+
+h4 {
+    border-top: dashed 1px;
+    padding: 5px;
+    border-color: blue;
+}
