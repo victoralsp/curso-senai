@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="iconepesquisa.png" type="image/x-icon">
 </head>
 <body>
     <h1>Pesquisa</h1>
@@ -13,14 +15,21 @@
 
     <!-- O formulário buscará a pesquisa do Google. Aberta numa nova aba -->
 
-    <form action="">
+    <form action="https://google.com./search" method="get"
+    target="_blank">
 
         <!-- Inclusão do campo de pesquisa -->
 
-        <div>
-            <input type="text" name="q" placeholder="Faça a sua pesquisa...">
+        <div class="pesquisa">
+            <input type="text" name="q" placeholder="Faça a sua pesquisa..." autocomplete="off">
         </div>
 
+        <br>
+
+        <!-- Botão de Pesquisa -->
+        <div class="botao">
+            <input type="submit" value="Pesquisar" >
+        </div>
     </form>
 </body>
 </html>
