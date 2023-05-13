@@ -9,7 +9,7 @@
 .plano-de-fundo {
     width: 100%;
     height: 100vh;
-    background-image: url('imagens/background.png');
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url('imagens/background.png');
     background-position: center;
     background-size: cover;
     padding-left: 8%;
@@ -18,6 +18,7 @@
 }
 /* Barra de navegação */
 .navbar {
+    padding-top: 15px;
     height: 10%;
     display: flex;
     align-items: center;
@@ -58,7 +59,7 @@ nav ul li a {
 
 .linha {
     display: flex;
-    height: 88%;
+    height: 87%;
     align-items: center;
 }
 
@@ -91,7 +92,7 @@ button {
 
 .cartao {
     width: 200px;
-    height: 230px;
+    height: 210px;
     display: inline-block;
     border-radius: 10px;
     padding: 15px 25px;
@@ -101,4 +102,31 @@ button {
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.126);
+}
+
+.cartao-1 {
+    background-image: url('imagens/pic-1.png');
+}
+.cartao-2 {
+    background-image: url('imagens/pic-2.png');
+}
+.cartao-3 {
+    background-image: url('imagens/pic-3.png');
+}
+.cartao-4 {
+    background-image: url('imagens/pic-4.png');
+}
+
+.cartao:hover {
+    transform: translateY(-10px);
+}
+
+h5 {
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.cartao p {
+    text-shadow: 0 0 4px #000;
 }
