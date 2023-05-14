@@ -1,0 +1,28 @@
+@media screen and (max-width:768px){
+    .linha {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .coluna {
+        flex-basis: 35%;
+    }
+
+    h1 {
+        font-size: 90px;
+        padding-bottom: 30px;
+    }
+
+    button {
+        margin-top: 40px;
+        font-size: 18px;
+        border-radius: 30px;
+    }
+
+    .cartao {
+        width: 300px;
+        height: 300px;
+    }
+    
+}

@@ -1,0 +1,61 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url('https://lh4.googleusercontent.com/proxy/2qxkcIYo8JS34Ldt6IulyXnn0eMiyN7ThP3CgkGXVhGohxPj3qaQ6Il_JQ64oK_gHXmnD_JqfLpjyv_mKgH7K0_yANFNFxZWfg6YXQxcAKSrpA=w3840-h2160-p-k-no-nd-mv');
+    background-position: fixed;
+    background-size: cover;
+    margin-top: 200px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.838);
+    font-size: 4em;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pesquisa input {
+    width: 500px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.434);
+    font-size: 14px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.187);
+    background-color: rgba(255, 217, 151, 0.445);
+}
+
+form input:focus {
+    background-color: rgba(240, 248, 255, 0.79);
+}
+
+input::placeholder {
+    color: rgba(83, 83, 83, 0.774);
+  }
+
+.botao input {
+    border-radius: 15px;
+    border: 1px solid rgb(0, 0, 0, 0.434);
+    background-color: rgba(255, 239, 210, 0.591);
+    color: rgb(139, 118, 88);
+    padding: 9px;
+    width: 90px;
+    cursor: pointer;
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.187);
+}
+
+.botao input:hover {
+    background-color: rgba(255, 255, 255, 0.671);
+}
