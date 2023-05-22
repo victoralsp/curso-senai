@@ -51,4 +51,5 @@
 .icones a:hover {
     background-position: 0% 100%;
     color: #fff;
+    transition: 1s;
 }
