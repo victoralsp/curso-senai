@@ -30,7 +30,7 @@ header {
     text-align: center;
     position: sticky;
     top: 0;
-    padding: 0.7rem;
+    padding-bottom: 0.7rem;
 }
 
 nav ul {
@@ -99,4 +99,94 @@ main, section {
 
 .verde-agua {
     background-color: #26ccca;
+}
+
+#ux {
+    color: #fff;
+    background-image: url('imagens/h13-background-img-2-min.jpg');
+}
+
+#motion {
+    background-image: url('imagens/h13-background-img-3-min.jpg');
+    background-size: cover;
+    background-position-x: center;
+}
+
+#brand {
+    background-image: url('imagens/h13-background-img-4-min.jpg');
+    color: #fff;
+}
+
+.texto {
+    color: #999;
+}
+
+#print {
+    background-image: url('imagens/h13-background-img-5-min.jpg');
+    background-size: cover;
+    background-position-x: center;
+}
+
+#produto {
+    background-image: url('imagens/h13-background-img-1-min.jpg');
+    background-size: cover;
+    background-position-x: center;
+}
+
+#produto, #motion, #print {
+    background-attachment: fixed;
+}
+
+.conteudo {
+    width: 40%;
+    max-width: 880px;
+    margin: 0;
+    margin-left: 4rem;
+}
+
+.fixed {
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    font-weight: bolder;
+    bottom: 30px;
+    right: 30px;
+    opacity: 90%;
+}
+
+.fixed:hover {
+    /* background-color: rgba(0, 128, 0, 0.406); */
+    font-weight: bolder;
+    /* border-radius: 35px; */
+    transform: scale(110%);
+    transition: 0.5s;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 13vh;
+        padding: 0;
+    }
+
+    .logo {
+        width: 25%;
+    }
+
+    header nav {
+        width: 70%;
+        max-width: 880px;
+    }
+
+    nav a {
+        font-size: 1.1rem;
+        padding: 0.7rem;
+    }
+
+    .conteudo h1 {
+        font-size: 5rem;
+        margin: -.6rem;
+    }
 }
