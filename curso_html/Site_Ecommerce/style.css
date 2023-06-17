@@ -156,6 +156,7 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 100px 0px;
 }
 
 .about-content {
@@ -173,4 +174,102 @@ header {
     /* font-weight: 600; */
     color: var(--text-color);
     line-height: 30px;
+}
+
+.contact {
+    padding: 80px 17%;
+    background-color: var(--text-color);
+}
+
+.main-contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-content li {
+    margin-bottom: 15px;
+}
+
+.contact-content li a {
+    display: block;
+    color: var(--bg-color);
+    font-size: var(--p-font);
+    font-weight: 600;
+    transition: all .40s ease;
+}
+
+.contact-content li a:hover {
+    transform: translateX(-10px);
+}
+
+.action form {
+    text-align: center;
+}
+
+.action form input[type="email"] {
+    width: 460px;
+    max-width: 100%;
+    padding: 12px 15px;
+    background-color: #515151;
+    color: var(--bg-color);
+    border: none;
+    border: none;
+    outline: none;
+    margin: 0 10px 20px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.action form input[type="submit"] {
+    padding: 12px 35px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: none;
+    outline: none;
+    margin: 0px 10px 20px 0px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.last {
+    text-align: center;
+    padding: 17px;
+    background-color: #757575;
+}
+
+.last p {
+    color: var(--text-color);
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+@media (max-width) {
+    #menu-icon {
+        display: block;
+    }
+
+    header {
+        padding: 15px 8%;
+    }
+
+    .navbar {
+        top: -500px;
+        left: 0;
+        right: 0;
+        position: absolute;
+        flex-direction: column;
+        background-color: var(--bg-color);
+        box-shadow: 0px 2px 18px rgb(129 162 182 / 20%);
+        transition: all .40s ease;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 1rem;
+        margin: 0.5rem;
+    }
 }
