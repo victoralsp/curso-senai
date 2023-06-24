@@ -136,6 +136,7 @@ nav ul i {
     text-align: center;
     margin: 0 10px;
     cursor: pointer;
+    padding-top: 5px;
 }
 
 .psize.active {
@@ -153,13 +154,13 @@ nav ul i {
     font-weight: 500;
 }
 
-    .quantity input {
-        width: 40px;
-        font-size: 17px;
-        font-weight: 500;
-        text-align: center;
-        margin-left: 15px;
-    }
+.quantity input {
+    width: 40px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 15px;
+}
 
 .btn-box {
     display: flex;
@@ -174,4 +175,23 @@ nav ul i {
     border-radius: 6px;
     cursor: pointer;
     color: white;
+}
+
+.cart-btn {
+    background-color: #ff5e00;
+    margin-left: 20px;
+}
+
+.buy-btn {
+    background-color: #00aeff;
+    margin-left: 20px;
+    display: flex;
+}
+
+.cart-btn:hover {
+    background-color: #ff3c00;
+}
+
+.buy-btn:hover {
+    background-color: #0066ff;
 }
