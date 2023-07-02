@@ -14,7 +14,7 @@ else if (estado == "RS") {
     document.getElementById("resultado").innerHTML = valorICMS
 }
 else if (estado == "BA") {
-    let valorICMS = valorProduto *0.07
+    let valorICMS = valorProduto * 0.07
     console.log(valorICMS)
     document.getElementById("resultado").innerHTML = valorICMS
 }

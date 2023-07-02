@@ -47,7 +47,7 @@ body {
 .qr-header input, select {
     padding: 8px;
     border-radius: 8px;
-    font-size: 18px;
+    font-size: 16px;
     outline: none;
     border: 2px solid var(--border-color);
 }
@@ -60,6 +60,10 @@ body {
 .qr-header div {
     display: flex;
     justify-content: space-between;
+}
+
+.div-sizes {
+    align-items: center;
 }
 
 /* Rodapé */
