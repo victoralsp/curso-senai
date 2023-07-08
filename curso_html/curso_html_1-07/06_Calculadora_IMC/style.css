@@ -16,16 +16,19 @@ body {
 }
 
 main {
-    width: 500px;
-    height: 400px;
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 20px;
-    background-color: lightseagreen;
-    margin-top: 150px;
-    border-radius: 6px; 
+    padding: 50px;
+    background-color: #021021;
+    margin-top: 50px;
+    border-radius: 70px 10px; 
+}
+
+h2 {
+    margin-bottom: 20px;
 }
 
 .divAltura, .divPeso, .divCalc {
@@ -35,9 +38,17 @@ main {
     gap: 10px;
 }
 
+.divAltura {
+    margin-bottom: 10px;
+}
+
+.divPeso {
+    margin-bottom: 15px;
+}
+
 input, button {
     padding: 10px;
-    font-size: 20px;
+    font-size: 16px;
     outline: none;
     border: none;
     border-radius: 5px;
@@ -45,38 +56,19 @@ input, button {
 
 button {
     cursor: pointer;
-    background-color: #6f00ff;
+    background-color: #000075;
     color: white;
+    border-radius: 20px 2px;
+    width: 50%;
+    margin: 0 auto;
 }
 
-/* 
-main {
-    background-color: #021021;
-    padding: 50px;
-    border-radius: 50px 5px;
-}
-
-h2 {
-    margin-bottom: 20px;
-    font-size: 1.5em;
-    text-align: center;
-}
-
-.divAltura {
-    margin-bottom: 5px
-}
-
-.divCalc {
-    text-align: center;
-}
-
-.divCalc button {
-    font-size: 1.1em;
-    padding: 5px;
-    border-radius: 10px 2px;
-    border: none;
-    cursor: pointer;
-    color: #03152e;
+#resultado {
     margin-top: 20px;
-    background-color: #fff;
-} */
+}
+
+@media screen and (max-width: 500px) {
+    body, input, button {
+        font-size: 15px
+    }
+}
