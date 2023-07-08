@@ -5,3 +5,61 @@
     font-family: sans-serif;
 }
 
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #03152e;
+    color: white;
+}
+
+main {
+    /* width: 500px;
+    height: 400px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: lightseagreen;
+    margin-top: 150px;
+    border-radius: 6px; 
+}
+
+.divAltura, .divPeso, .divCalc {
+
+}
+
+/* 
+main {
+    background-color: #021021;
+    padding: 50px;
+    border-radius: 50px 5px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.divAltura {
+    margin-bottom: 5px
+}
+
+.divCalc {
+    text-align: center;
+}
+
+.divCalc button {
+    font-size: 1.1em;
+    padding: 5px;
+    border-radius: 10px 2px;
+    border: none;
+    cursor: pointer;
+    color: #03152e;
+    margin-top: 20px;
+    background-color: #fff;
+} */
