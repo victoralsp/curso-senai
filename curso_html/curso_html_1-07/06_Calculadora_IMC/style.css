@@ -68,6 +68,9 @@ button {
 }
 
 @media screen and (max-width: 500px) {
+    main {
+        width: 90%;
+    }
     body, input, button {
         font-size: 15px
     }
