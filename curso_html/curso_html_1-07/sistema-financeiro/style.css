@@ -40,7 +40,7 @@ main {
 
 .newItem {
     display: flex;
-    gap: 20px;
+    gap: 5px;
     align-items: end;
     width: 100%;
     justify-content: center;
